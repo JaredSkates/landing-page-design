@@ -1,0 +1,28 @@
+/* Font Imports */
+
+/* Import all our stylesheets within our main stylesheet */
+@import url("/styles/header.css");
+@import url("/styles/welcome.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+    height: 100vh;
+
+    background-color: black;
+
+    color: white;
+
+    background-image: url(/assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: color;
+
+}

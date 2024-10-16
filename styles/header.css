@@ -1,0 +1,62 @@
+.landing-header-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0 30px;
+}
+
+/* Logo Container */
+.landing-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-logo img {
+    width: 30;
+    height: 50px;
+
+}
+
+.logo-contents {
+    display: flex;
+    align-items: center;
+}
+
+/* Nav Bar */
+.header-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-ul li {
+    list-style: none;
+    font-size: 17px;
+    
+}
+
+.nav-ul a {
+    color: white;
+    text-decoration: none;
+
+    font-weight: 200;
+}
+
+#sign-in {
+    background: rgb(21, 113, 120);
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+
